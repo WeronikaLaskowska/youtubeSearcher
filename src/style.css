@@ -1,7 +1,13 @@
-.style-this{
-    display: flex;
-    align-items: center;
+.style-this {
+  display: flex;
+  align-items: center;
 }
 .list-of-videos {
-    padding: 10px 30px;
+  padding: 10px 30px;
+}
+
+@media (max-width: 600px) {
+  .style-this {
+    flex-direction: column;
+  }
 }
